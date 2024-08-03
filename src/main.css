@@ -1,0 +1,78 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cash {
+  position: relative;
+  right: 50px;
+  margin: 10px;
+  font-size: 36px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  color: green;
+  width: 150px;
+}
+
+/* BUTTONS */
+.box-btns {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  width: 500px;
+  height: 300px;
+}
+
+.btn {
+  width: 150px;
+  height: 70px;
+  border: none;
+  background-color: royalblue;
+  color: #fff;
+  border: 1px solid royalblue;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+
+.btn:hover {
+  background-color: #fff;
+  color: royalblue;
+}
+
+.btn:active {
+  transform: scale(1.115);
+}
+
+.btn:last-child {
+  position: relative;
+  left: 130px;
+}
+
+/* USERS */
+.container {
+  position: relative;
+  left: 130px;
+}
+
+.users {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  width: 1200px;
+}
+
+.user {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 15px;
+  width: 300px;
+  height: 70px;
+  border: 1px solid #000;
+  border-radius: 5px;
+}
+
+.avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
